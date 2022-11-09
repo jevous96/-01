@@ -1,7 +1,7 @@
 // then(실행,error)
 fetch('https://jsonplaceholder.typicode.com/posts/1')
 .then(
-  (Response) => Response.text()
+  (Response) => Response.text())
 .then(
   (result) => {
     console.log('welcome')
